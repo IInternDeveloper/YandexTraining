@@ -1,7 +1,6 @@
 using System;
 using System.Collections.Generic;
 
-
 public class Anagrams {
     public static bool IsAnagrams(string wordA, string wordB) {
         if (wordA.Length != wordB.Length) {

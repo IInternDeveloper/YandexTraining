@@ -1,15 +1,12 @@
 using System;
 
-
 public class ChessBoard {
     private static readonly Cell[] _shifts = new Cell[] {
-            new Cell(0, -1), new Cell(0, 1), new Cell(-1, 0), new Cell(1, 0)
-        };
+        new Cell(0, -1), new Cell(0, 1), new Cell(-1, 0), new Cell(1, 0)
+    };
 
     private bool[,] _board;
-
     private const int _boardSize = 10;
-
     private Cell[] _figure;
 
     public ChessBoard(Cell[] figure) {
@@ -41,7 +38,6 @@ public class ChessBoard {
 
 public struct Cell {
     public int X { get; set; }
-
     public int Y { get; set; }
 
     public Cell(int X, int Y) =>

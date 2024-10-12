@@ -1,7 +1,6 @@
 using System;
 using System.Collections.Generic;
 
-
 public class Partition {
     public static List<int> MinPartition(int[] nums, int numsCount) {
         var partition = new List<int>();

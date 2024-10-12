@@ -1,6 +1,5 @@
 using System;
 
-
 public class FishSeller {
     public static int GetMaxProfit(int N, int K, int[] prices) {
         int maxProfit = 0;

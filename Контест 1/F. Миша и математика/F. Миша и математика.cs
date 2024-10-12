@@ -1,6 +1,5 @@
 using System;
 
-
 public class MishaAndMath {
     public static string GetOperators(int[] nums, int numsCount) {
         int operatorsCount = numsCount - 1;

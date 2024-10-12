@@ -1,6 +1,5 @@
 using System;
 
-
 public class Ropes {
     public static int MinPossibleLength(int[] ropes, int ropesCount) {
         int largestRope = ropes[0];

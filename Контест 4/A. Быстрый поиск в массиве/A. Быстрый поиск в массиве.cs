@@ -1,9 +1,7 @@
 using System;
 
-
 public class NumsCounterInSegment {
     private int[] _nums;
-
     private int _numsCount;
 
     public NumsCounterInSegment(int[] nums, int numsCount) =>

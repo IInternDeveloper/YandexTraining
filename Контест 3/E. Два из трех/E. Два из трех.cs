@@ -2,7 +2,6 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-
 public class SetOperations {
     public static SortedSet<int> IntersertionLeastTwo(
         HashSet<int> A, HashSet<int> B, HashSet<int> C) {

@@ -4,9 +4,7 @@ using System.Collections.Generic;
 
 public class RemovingNums {
     private int[] _nums;
-
     private int _numsCount;
-
     private Dictionary<int, int> _numsCounter;
 
     public RemovingNums(int[] nums, int numsCount) {
@@ -32,6 +30,7 @@ public class RemovingNums {
             if (!numsCounter.ContainsKey(num)) {
                 numsCounter[num] = 0;
             }
+            
             numsCounter[num]++;
         }
 
@@ -45,6 +44,7 @@ public class RemovingNums {
             if (num < min) {
                 min = num;
             }
+
             if (num > max) {
                 max = num;
             }

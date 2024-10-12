@@ -1,6 +1,5 @@
 using System;
 
-
 public class FileFormatting {
     public static long KeyPressCount(int[] spaces) {
         long keyPressCount = 0;

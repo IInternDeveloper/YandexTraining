@@ -1,7 +1,6 @@
 using System;
 using System.Collections.Generic;
 
-
 public class RepeatingNum {
     public static bool IsRepeating(int[] nums, int numsCount, int distance) {
         var previousNums = new HashSet<int>();
@@ -9,6 +8,7 @@ public class RepeatingNum {
             if (previousNums.Contains(nums[i])) {
                 return true;
             }
+            
             previousNums.Add(nums[i]);
             if (i >= distance) {
                 previousNums.Remove(nums[i - distance]);

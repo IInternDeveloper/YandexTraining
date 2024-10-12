@@ -3,9 +3,7 @@ using System;
 
 public class BishopsRooks {
     private string[] _board;
-
     private bool[,] _attackedCells;
-
     private int _boardSize;
 
     public BishopsRooks(string[] board, int boardSize) {

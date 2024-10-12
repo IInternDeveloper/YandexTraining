@@ -1,6 +1,5 @@
 using System;
 
-
 public class SeaBattle {
     public static long MaxPossibleK(long cellsCount) {
         long left = -1;

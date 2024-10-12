@@ -1,10 +1,8 @@
 using System;
 using System.Collections.Generic;
 
-
 public class AmbitiousSnail {
     private Berry[] _berries;
-
     private int _berriesCount;
 
     public AmbitiousSnail(Berry[] berries, int berriesCount) =>
@@ -29,6 +27,7 @@ public class AmbitiousSnail {
         if (positive.Count != 0) {
             largestDown = _berries[positive[^1]].Down;
         }
+
         if (negative.Count != 0) {
             largestUp = _berries[negative[0]].Up;
         }
@@ -52,6 +51,7 @@ public class AmbitiousSnail {
                     if (largestDownIndex != -1) {
                         yield return largestDownIndex;
                     }
+
                     largestDownIndex = i;
                 } else {
                     yield return i;
@@ -88,7 +88,6 @@ public class AmbitiousSnail {
 
 public struct Berry {
     public int Up { get; set; }
-
     public int Down { get; set; }
 
     public Berry(int[] berry) =>

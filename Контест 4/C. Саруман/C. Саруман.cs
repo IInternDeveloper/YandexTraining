@@ -1,6 +1,5 @@
 using System;
 
-
 public class SarumansAttack {
     public static long SuitableRegimentIndex(long[] prefixes, long regiments, long orcs) {
         long left = -1;

@@ -2,7 +2,6 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-
 public class Playlists {
     public static string[] CommonPlaylist(HashSet<string>[] playlists) {
         int playlistsCount = playlists.Length;

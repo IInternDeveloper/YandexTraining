@@ -1,10 +1,8 @@
 using System;
 using static System.Math;
 
-
 public class PaintingTrees {
     private Segment _A;
-
     private Segment _B;
 
     public PaintingTrees(Segment A, Segment B) =>
@@ -21,7 +19,6 @@ public class PaintingTrees {
 
 public struct Segment {
     public int O { get; set; }
-
     public int R { get; set; }
 
     public Segment(int O, int R) => (this.O, this.R) = (O, R);
@@ -37,7 +34,6 @@ public class Program {
 
         var A = new Segment(segmentA[0], segmentA[1]);
         var B = new Segment(segmentB[0], segmentB[1]);
-
         var paintingTrees = new PaintingTrees(A, B);
 
         Console.WriteLine(paintingTrees.Count());

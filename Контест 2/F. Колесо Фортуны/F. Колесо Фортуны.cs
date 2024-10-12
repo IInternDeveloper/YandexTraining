@@ -1,7 +1,6 @@
 using System;
 using static System.Math;
 
-
 public class FortunesWheel {
     public static int GetMaxPoint(int[] points, int N, int A, int B, int K) {
         int maxPoint = -1;

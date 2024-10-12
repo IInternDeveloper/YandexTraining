@@ -1,6 +1,5 @@
 using System;
 
-
 public class MinRectangle {
     public static (Point, Point) GetCoverage(Point[] points) =>
         (BottomLeft(points), TopRight(points));
@@ -11,6 +10,7 @@ public class MinRectangle {
             if (point.X < bottomLeft.X) {
                 bottomLeft.X = point.X;
             }
+            
             if (point.Y < bottomLeft.Y) {
                 bottomLeft.Y = point.Y;
             }
@@ -25,6 +25,7 @@ public class MinRectangle {
             if (point.X > topRight.X) {
                 topRight.X = point.X;
             }
+
             if (point.Y > topRight.Y) {
                 topRight.Y = point.Y;
             }
@@ -36,7 +37,6 @@ public class MinRectangle {
 
 public struct Point {
     public int X { get; set; }
-
     public int Y { get; set; }
 
     public Point(int[] points) =>

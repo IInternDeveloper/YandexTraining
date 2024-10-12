@@ -1,6 +1,5 @@
 using System;
 
-
 public class CantorsTable {
     public static (long, long) GetFraction(long N) {
         long diagonal = GetDiagonal(N);

@@ -1,7 +1,6 @@
 using System;
 using System.Text;
 
-
 public class ProfitableStartup {
     private static readonly int[] _digits = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
 
